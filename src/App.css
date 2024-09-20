@@ -1,0 +1,114 @@
+/* General styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for wallet buttons and airdrop */
+.wallet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* Wallet buttons */
+.wallet-adapter-button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #0c1a0d;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.wallet-adapter-button:hover {
+  background-color: #45a049;
+}
+
+.wallet-adapter-button-disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Airdrop section styling */
+.airdrop-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.airdrop-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+.airdrop-input:focus {
+  border-color: #007bff;
+}
+
+.airdrop-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.airdrop-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.airdrop-button:hover {
+  background-color: #0056b3;
+}
+
+/* Message styling */
+p {
+  color: #333;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Public key display styling */
+.public-key-display {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.public-key {
+  font-family: monospace;
+  font-size: 14px;
+  color: #333;
+  word-wrap: break-word;
+  margin-top: 5px;
+}
